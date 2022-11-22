@@ -1,1 +1,4 @@
-print("Hello World!")
+a = 5
+
+a ^= 2
+print(a)
