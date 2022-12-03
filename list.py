@@ -24,3 +24,12 @@ namesList = ['kiran', 'adiba', 'dibar', 'wajahat', 'amin']
 namesList.sort(reverse=True)
 
 print(namesList)
+
+#declare an list and empty list
+newList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+squares = []
+
+for i in newList:
+    squares.append(i**2)
+print(newList)
+print(squares)
