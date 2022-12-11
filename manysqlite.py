@@ -26,7 +26,13 @@ cur = conn.cursor()
 
 # cur.executemany("insert into customers values(?, ?, ?, ?)", many_data)
 
-cur.execute("select * from customers where c_lname like '%a%' ")
+cur.execute('''
+update customers set c_fname = 'aryan'
+where c_lname = 'shah'
+''')
+
+conn.commit()
+cur.execute("select * from customers")
 print(cur.fetchall())
 
 
