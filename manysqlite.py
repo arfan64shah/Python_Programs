@@ -26,7 +26,7 @@ cur = conn.cursor()
 
 # cur.executemany("insert into customers values(?, ?, ?, ?)", many_data)
 
-cur.execute("select * from customers")
+cur.execute("select * from customers where c_lname like '%a%' ")
 print(cur.fetchall())
 
 
