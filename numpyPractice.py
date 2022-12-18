@@ -10,3 +10,10 @@ def corigir(pes):
     print("target is ", target)
     return np.clip(target, pesos, 95)
 print(corigir(pesos))
+
+mat=np.array([[1,2,3],[1,2,3]])
+print(mat.shape)  #a tuple
+
+vec=np.array([1,2,3])
+print(vec.shape)
+
