@@ -17,3 +17,14 @@ print(mat.shape)  #a tuple
 vec=np.array([1,2,3])
 print(vec.shape)
 
+
+np1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+np2 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+print(np1 + np2)
+print(np1 + 2)
+print(np1.sum())
+
+
+b = np1[0:2]
+print(np1 - b)
