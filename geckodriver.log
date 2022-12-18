@@ -20,3 +20,21 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1670766714967	Marionette	INFO	Stopped listening on port 53345
 [Parent 24904, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671207450538	geckodriver	INFO	Listening on 127.0.0.1:61229
+1671207453586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61230" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ARFAN~1.SHA\\AppData\\Local\\Temp\\rust_mozprofiletQQzmA"
+1671207454186	Marionette	INFO	Marionette enabled
+1671207454193	Marionette	INFO	Listening on port 61242
+Read port: 61242
+WebDriver BiDi listening on ws://127.0.0.1:61230
+1671207454367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ARFAN~1.SHA\\AppData\\Local\\Temp\\rust_mozprofiletQQzmA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61230/devtools/browser/93c49f56-c502-4e9c-abcf-0e02bd448a3b
+1671207553090	geckodriver	INFO	Listening on 127.0.0.1:61307
+1671207556127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61308" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ARFAN~1.SHA\\AppData\\Local\\Temp\\rust_mozprofileex27Hv"
+1671207556666	Marionette	INFO	Marionette enabled
+1671207556672	Marionette	INFO	Listening on port 61319
+Read port: 61319
+WebDriver BiDi listening on ws://127.0.0.1:61308
+1671207556795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ARFAN~1.SHA\\AppData\\Local\\Temp\\rust_mozprofileex27Hv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61308/devtools/browser/21da4a3a-4c19-40aa-ab9d-dada963bcb9f
