@@ -1,0 +1,1 @@
+{% formfield_errors player.test_1 label="Сколько очков получит Участник А в 1 раунде?" %}
