@@ -1,15 +1,14 @@
+import math
 class point:
-    def reset(self):
-        self.x = 0
-        self.y = 0
+    def move(self, x: float, y: float) -> None:
+        self.x = x
+        self.y = y
+
+
+    def reset(self) -> None:
+        self.move(0, 0)
+
+    def calculate_distance(self, other: "Point") -> float:
+        return math.hypot(self.x - other.x, self.y - other.y)
+
     
-    def point1(p1):
-        p1.x = 2
-        p1.y = 3
-        
-
-p = point()
-p.point1()
-p.reset()
-
-print(p.x, p.y)
