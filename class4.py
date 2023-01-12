@@ -15,7 +15,7 @@ class rectangle(shape):
 
 class square(shape):
      def area(self):
-        area = self.length * self.width
+        area = self.length * self.length
         return area
 
 class circle(shape):
@@ -26,4 +26,4 @@ rect_area = rectangle(2, 3, 4)
 square_area = square(2, 3, 4)
 circle_area = circle(2, 3, 4)
 
-print(circle_area.area)
+print(square_area.area)
