@@ -7,3 +7,7 @@ rate = percentage/100
 interest = amount * rate * time
 
 print("Interest is: ", interest)
+
+final_amount = amount + interest
+
+print("Final amount is: ", final_amount)
