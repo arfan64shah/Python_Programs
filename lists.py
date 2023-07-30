@@ -5,3 +5,10 @@ numbers.insert(0, 10)
 numbers.sort(reverse=False)
 
 print(numbers)
+
+names = ['Zulfiqar', 'Tajwar', 'Munner', 'Jahangir']
+
+for i in names:
+    if (i == 'Munner'):
+        print("Found", i, "at index", names.index(i))
+        break
