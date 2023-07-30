@@ -11,3 +11,10 @@ if user_name == userName and passWord == password:
     print("Welcome to the system!")
 else:
     print("Wrong user name or password!")
+
+for x in user_name:
+    print(x)
+
+#we can check using or statement as well
+if (user_name == userName) or (passWord == password):
+    print("Welcome to our system!")
