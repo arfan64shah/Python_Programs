@@ -62,4 +62,30 @@ num1 = 10
 num2 = 8
 
 print("Bitwise or of two numbers is ", num1 ^ num2)
+
+
+# list
+lst = [1, 2, 'arfan', 3.3]
+
+lst[2] = 'shah'
+print(lst)
+
+tupl = (1, 2, 'arfan', 3.3)
+
+print(tupl[1])
+
+# dicationary 
+dic = {'arfan': 5, 'shah': 4}
+dic['arfan'] = 56
+print(dic['arfan'])
+
+sett = {1, 2, 3, 4, 4, 5, 5, 6}
+#sett[1] = 10
+print(sett)
+
+# eval function in user input
+n = eval(input("Enter the first name: "))
+m = eval(input("Enter second name: "))
+
+print(n+m)
     
