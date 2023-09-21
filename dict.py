@@ -13,4 +13,3 @@ print(v)
 
 i = dic.items()
 print(i)
-
